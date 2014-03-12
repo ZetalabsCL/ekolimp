@@ -6,6 +6,9 @@
   @import url(../assets/animate/animate.css);
   @import url(../assets/easy-pie-chart/easypiechart.css);
   @import url(../assets/timeline/timeline.css);
+
+
+
   body
 {
   background:#f3f3f3;
@@ -1318,12 +1321,16 @@
 }
   header .navbar-brand img
 {
-  height:46px
+  height:46px;
 }
 .top-header
 {
+  position: relative;
   border-bottom:1px solid #eee;
-  background:#fff
+  background-color:#fff;
+  z-index:50000;
+  width:100%;
+
 }
 .top-header .aux-text
 {
@@ -1374,7 +1381,7 @@
   min-width:160px;
   position:absolute;
   right:-1px;
-  z-index:1500;
+  z-index:50;
   margin:0;
   padding:0;
   list-style:none;
@@ -4391,4 +4398,3 @@
 }
 
 }
-
